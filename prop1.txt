@@ -1,0 +1,24 @@
+\documentclass{report}
+
+\usepackage{amsmath,amsthm}
+\newtheorem{proposition}{Proposition}
+
+\begin{document}
+\begin{proposition}
+The equilibrium investment in the ratings process for firms with a high public signal, $\pi^{*}_{H}$,  is decreasing in public signal accuracy, $\omega$.
+\end{proposition}
+
+\begin{proof}
+Suppose not. Then for some $\omega$ $\pi^{*}_{H}$ increases in $\omega$. This implies that the probability of getting an $A$ rating is increasing for (both types of) firms with an $H$ signal as the rating production functions are as follows:
+\begin{align}
+\textup{Pr}\left ( A | G \right) &= g_{1}+(g_{2}+g_{3})\pi_{H}\\
+\textup{Pr}\left ( A | B \right) &= (b_{2}+b_{3})\pi_{H}
+\end{align}
+As the pool of firms with an $A$ rating now contains more of both $G$ and $B$ type firms, the the change in the expected default rate, and therefore the interest rate, of the $A$ pool could be positive or negative. The change in the interest rate is:
+\begin{align}
+\frac{\partial R^{*}\left(A|H\right)}{\partial \pi^{*}_{H}} &= \frac{r\omega\lambda(1-\omega)(1-\lambda)(b_{2}+b_{3})g_{1}(\gamma_{G}-\gamma_{B})}{(\omega\lambda(g_1 +(g_2 + g_3)\pi_H\gamma_G + (1-\omega)(1-\lambda)(b_2 + b_3)\pi_H\gamma_B)^2}
+\end{align}
+This expression is positive, indicating that $R^{*}\left(A|H\right)$ is increasing in $\pi^{*}_{H}$. The net return to the project for the firm is therefore decreasing, along with the marignal benefit. As the the marginal benefit decreases, an individual firm would like to \emph{decrease} their investment in the ratings process, $\pi^{*}_{H}$. This is a contradiction.
+\end{proof}
+
+\end{document}

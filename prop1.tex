@@ -1,0 +1,71 @@
+\documentclass{report}
+
+\usepackage{amsmath,amsthm}
+\usepackage{nccmath}
+\usepackage{booktabs}
+\usepackage{fullpage}
+
+\newtheorem{proposition}{Proposition}
+
+\begin{document}
+
+\textbf{Notation}
+
+\begin{tabular}{l c c}
+\toprule
+Variable&Symbol&Elements\\
+\midrule
+Type&$\theta$		&$G,B$\\
+Frac. of type 1&$\lambda$&$\left[0,1\right]$\\
+Signal&$\nu$		&$H,L$\\
+Signal Accuracy&$\omega$&$\left[0.5,1\right]$\\
+Rating&$\kappa$	&$A,B,C$\\
+Investment&$\pi$	&$\left[0,1\right]$\\
+Prob. project paysoff&$\gamma$&$\gamma_G,\gamma_B$\\
+Risk free rate&$r$&\\
+Invesment size&$D$&\\
+\bottomrule
+\end{tabular}
+
+\begin{proposition}
+% The equilibrium investment in the ratings process for firms with signal $\nu$, $\pi^{*}_{\nu}$,  is decreasing in public signal accuracy, $\omega$.
+The equilibrium investment in the ratings process for firms with signal $H$, $\pi^{*}_{H}$,  is decreasing in public signal accuracy, $\omega$.
+\end{proposition}
+
+\begin{proof}
+% Suppose not. Then for some $\omega$, $\pi^{*}_{\nu}$ increases in $\omega$. This implies that the probability of getting an $A$ ($B$ or $C$) rating is increasing (decreasing) for firms with signal $\nu$. The rating production functions are as follows:
+Suppose not. Then for some $\omega$, $\pi^{*}_{H}$ increases in $\omega$. This implies that the probability of getting an $A$ ($C$) rating is increasing (decreasing) for firms with signal $H$. The relevant rating production functions are as follows:
+\begin{align*}
+\textup{Pr}\left ( \medmath{A} | \medmath{G} \right) &= g_{1}+(g_{2}+g_{3})\pi_{H}\\
+\textup{Pr}\left ( \medmath{A} | \medmath{B} \right) &= (b_{2}+b_{3})\pi_{H}\\
+% \textup{Pr}\left ( \medmath{B} | \medmath{G} \right) &= g_{2}(1-\pi_{\nu})\\
+% \textup{Pr}\left ( \medmath{B} | \medmath{B} \right) &= b_{2}(1-\pi_{\nu})\\
+\textup{Pr}\left ( \medmath{C} | \medmath{G} \right) &= g_{3}(1-\pi_{\nu})\\
+\textup{Pr}\left ( \medmath{C} | \medmath{B} \right) &= b_{1}+b_{3}(1-\pi_{\nu}).
+\end{align*}
+
+As the pool of firms with an $A$ ($C$) rating and $H$ signal now contains more (less) of both type $G$ and $B$ firms, the expected default rate, and therefore the interest rate, of the pool could increase or decrease. The change in the interest rate is:
+% As the pool of firms with an $A$ ($B$ or $C$) rating now contains more (less) of both type $G$ and $B$ firms, the expected default rate, and therefore the interest rate, of the pool could increase or decrease. The change in the interest rates are:
+\begin{align}
+\frac{\partial \textup{R}^{*}\left(\medmath{\kappa,H}\right)}{\partial \pi^{*}_{H}} &= %
+\frac{r\omega\lambda(1-\omega)(1-\lambda)\left[\kappa\left(\medmath{G,\pi^{*}_{H}}\right)\kappa'\left(\medmath{B}\right)-\kappa\left(\medmath{B,\pi^{*}_{H}}\right)\kappa'\left(\medmath{G}\right)\right](\gamma_{G}-\gamma_{B})}{(\textup{Pr}\left(\medmath{G,H,\kappa}|\medmath{\pi^{*}_{H}}\right)\gamma_G + (\textup{Pr}\left(\medmath{B,H,\kappa}|\medmath{\pi^{*}_{H}}\right)\gamma_B)^2}
+% \frac{\partial \textup{R}^{*}\left(\medmath{\kappa,\nu}\right)}{\partial \pi^{*}_{\nu}} &= %
+% \frac{r\omega\lambda(1-\omega)(1-\lambda)\left[\kappa\left(\medmath{G,\pi^{*}_{\nu}}\right)\kappa'\left(\medmath{B}\right)-\kappa\left(\medmath{B,\pi^{*}_{\nu}}\right)\kappa'\left(\medmath{G}\right)\right](\gamma_{G}-\gamma_{B})}{(\textup{Pr}\left(G,\nu,\kappa|\pi^{*}_{\nu}\right)\gamma_G + (\textup{Pr}\left(B,\nu,\kappa|\pi^{*}_{\nu}\right)\gamma_B)^2}
+\end{align}
+% where $\kappa(\theta,\pi)$ is the probability of getting rating $\kappa$ at type $\theta$ and investment $\pi$, and $\kappa'$ is the first derivative with respect to $\pi$. 
+where $\kappa(\theta,\pi)$ is the probability of getting rating $\kappa$ at type $\theta$ and investment $\pi$, and $\kappa'$ is the first derivative with respect to $\pi$. This expression is positive, indicating that $\textup{R}^{*}\left(\medmath{\kappa}|\medmath{H}\right)$ is increasing in $\pi^{*}_{H}$ for $\kappa$ equal to $A$ or $C$. The interest rate increases because the proportion of type $G$ firms is decreasing (and thus that of $B$ types is increasing) in the pool of $A$ or $C$-rated, $H$-signal firms.\footnote{This is true as $\frac{\kappa'(\medmath{G})}{\kappa(\medmath{G,\pi})}<\frac{\kappa'(\medmath{B})}{\kappa(\medmath{B,\pi})}$ for $\kappa\epsilon\left\{A,C\right\}$, which holds whenever $g_{1}>0$ and $b_{1}>0$, respectively.} So, a random $A$ or $C$-rated, $H$-signal firm is now more likely to be $B$ type and the default rate of firms in this pool has increased.
+
+As the interest rate increases, so does the borrowing cost, $D\textup{R}^{*}(\medmath{\kappa,H})$. The net return to the project for the firm is therefore lowered, along with the marginal benefit. The change in the marginal benefit is:
+\begin{align}
+\frac{\partial \textup{MB}_{H}\left(\medmath{\mathbf{R^{*}}}\right)}{\partial \textup{R}^{*}\left(\medmath{\kappa}|\medmath{H}\right)} &= -D\frac{\omega\lambda\kappa'(G)\gamma_{G}+(1-\omega)(1-\lambda)\kappa'(B)\gamma_B}{\omega\lambda + (1-\omega)(1-\lambda)}
+\end{align}
+Note that the interest rate for $B$ rated firms, $\textup{R}^{*}(\medmath{B,H})$, does not change with $\pi^{*}_{H}$ and therefore has no bearing on the marginal benefit.\footnote{In contrast to the relevant condition for $A$, $\frac{B'(\medmath{G})}{B(\medmath{G,\pi})}=\frac{B'(\medmath{B})}{B(\medmath{B,\pi})}$.} As the marginal benefit decreases, an individual firm would like to \emph{decrease} their investment in the ratings process, as $\pi^{*}_{H}=\textup{MB}_{H}\left(\medmath{\mathbf{R^{*}}}\right)^{\frac{1}{\alpha-1}}$. This is a contradiction.
+\end{proof}
+
+% Note that, under the assumption $g_{3}=0$, $C$ rated firms are not funded, and changes to interest rate for $C$ rated firms, $\textup{R}^{*}(\medmath{C,H})$, are irrelevant as they have no bearing on the marginal benefit.\footnote{In fact, this is true whenever $g_{3}<\frac{-(1-\omega)(1-\lambda)(b_{1}+b_{3}(1-\pi^{*}_{H}))(y\gamma_{B}-Dr)}{\omega\lambda(1-\pi^{*}_{H})(y\gamma_G-Dr)}$.} 
+
+<<<<<<< HEAD
+\end{document}
+=======
+\end{document}
+>>>>>>> a5c213a6ba5e1c31a9a4ed483808ba40ee37805c
