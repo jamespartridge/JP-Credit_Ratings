@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.15)  16 NOV 2012 15:40
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.15)  16 NOV 2012 16:34
 entering extended mode
 **AAA_draft
-(Z:\Users\James\Dropbox\JP-Credit_Ratings\AAA_draft.tex
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\AAA_draft.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -346,11 +346,7 @@ Package hyperref Info: Option `pdffitwindow' set `false' on input line 48.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 48.
 Package hyperref Info: Option `colorlinks' set `true' on input line 48.
 
-(Z:\Users\James\Dropbox\JP-Credit_Ratings\AAA_draft.aux
-
-LaTeX Warning: Label `eq:FP' multiply defined.
-
-)
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\AAA_draft.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
@@ -365,7 +361,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
- (Z:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+
+(Z:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen131
@@ -404,83 +401,76 @@ LaTeX Info: Redefining \ref on input line 57.
 LaTeX Info: Redefining \pageref on input line 57.
 LaTeX Info: Redefining \nameref on input line 57.
 
-(Z:\Users\James\Dropbox\JP-Credit_Ratings\AAA_draft.out)
-(Z:\Users\James\Dropbox\JP-Credit_Ratings\AAA_draft.out)
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\AAA_draft.out)
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\AAA_draft.out)
 \@outlinefile=\write4
  [1
 
 {Z:/Users/James/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<rate_freq.png, id=103, 747.2718pt x 502.9992pt>
+<rate_freq.png, id=99, 747.2718pt x 502.9992pt>
 File: rate_freq.png Graphic file (type png)
  <use rate_freq.png>
-<rate_share.png, id=104, 747.2718pt x 502.9992pt>
+<rate_share.png, id=100, 747.2718pt x 502.9992pt>
 File: rate_share.png Graphic file (type png)
  <use rate_share.png> [2
 
- <Z:/Users/James/Dropbox/JP-Credit_Ratings/rate_freq.png (PNG copy)>] [3 <Z:/Us
-ers/James/Dropbox/JP-Credit_Ratings/rate_share.png (PNG copy)>] [4] [5] [6] [7]
-
-[8] <leverage_by_cohort_clr.pdf, id=173, 794.97pt x 614.295pt>
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/rate_freq.png (PNG copy)>]
+[3 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/rate_share.png (PNG copy)
+>] [4] [5] [6] [7] [8]
+<leverage_by_cohort_clr.pdf, id=169, 794.97pt x 614.295pt>
 File: leverage_by_cohort_clr.pdf Graphic file (type pdf)
 
-<use leverage_by_cohort_clr.pdf> [9 <Z:/Users/James/Dropbox/JP-Credit_Ratings/l
-everage_by_cohort_clr.pdf>]
-<avg_leverage_bv_nofin.pdf, id=189, 794.97pt x 614.295pt>
+<use leverage_by_cohort_clr.pdf> [9 <Z:/Users/James/Documents/GitHub/JP-Credit_
+Ratings/leverage_by_cohort_clr.pdf>]
+<avg_leverage_bv_nofin.pdf, id=185, 794.97pt x 614.295pt>
 File: avg_leverage_bv_nofin.pdf Graphic file (type pdf)
 
-<use avg_leverage_bv_nofin.pdf> [10 <Z:/Users/James/Dropbox/JP-Credit_Ratings/a
-vg_leverage_bv_nofin.pdf>] <assets_nf.pdf, id=206, 794.97pt x 614.295pt>
+<use avg_leverage_bv_nofin.pdf> [10 <Z:/Users/James/Documents/GitHub/JP-Credit_
+Ratings/avg_leverage_bv_nofin.pdf>]
+<assets_nf.pdf, id=202, 794.97pt x 614.295pt>
 File: assets_nf.pdf Graphic file (type pdf)
-
-<use assets_nf.pdf> [11 <Z:/Users/James/Dropbox/JP-Credit_Ratings/assets_nf.pdf
->] [12] [13] [14]
+ <use assets_nf.pdf> [11 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/ass
+ets_nf.pdf>] [12] [13] [14]
 LaTeX Font Info:    Try loading font information for U+bbm on input line 230.
 
 (Z:\Users\James\AppData\Roaming\MiKTeX\2.9\tex\latex\bbm\ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
-) [15]
-Overfull \hbox (12.05614pt too wide) in paragraph at lines 266--266
-[] 
- []
-
-[16] [17] [18] [19] [20] [21]
-<Spread_HiIG.png, id=327, 1347.0325pt x 979.66pt>
+) [15] [16]
+[17] [18] [19] [20] <Spread_HiIG.png, id=317, 1347.0325pt x 979.66pt>
 File: Spread_HiIG.png Graphic file (type png)
- <use Spread_HiIG.png>
-<Spread_LoIG.png, id=328, 1347.0325pt x 979.66pt>
+
+<use Spread_HiIG.png> <Spread_LoIG.png, id=318, 1347.0325pt x 979.66pt>
 File: Spread_LoIG.png Graphic file (type png)
- <use Spread_LoIG.png>
-<Spread_SG.png, id=329, 585.18625pt x 425.59pt>
+
+<use Spread_LoIG.png> <Spread_SG.png, id=319, 585.18625pt x 425.59pt>
 File: Spread_SG.png Graphic file (type png)
- <use Spread_SG.png> [22]
-<CVCI.png, id=343, 747.2718pt x 502.9992pt>
+
+<use Spread_SG.png> [21] <CVCI.png, id=333, 747.2718pt x 502.9992pt>
 File: CVCI.png Graphic file (type png)
- <use CVCI.png> [23 <Z:/Users/James/Dropbox/JP-Credit_Ratings/Spread_HiIG.png (
-PNG copy)>] [24 <Z:/Users/James/Dropbox/JP-Credit_Ratings/Spread_LoIG.png (PNG 
-copy)>] [25 <Z:/Users/James/Dropbox/JP-Credit_Ratings/Spread_SG.png (PNG copy)>
-] [26 <Z:/Users/James/Dropbox/JP-Credit_Ratings/CVCI.png (PNG copy)>] [27]
-(Z:\Users\James\Dropbox\JP-Credit_Ratings\AAA_draft.bbl) [28] [29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 526.
- [30]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 526.
 
-(Z:\Users\James\Dropbox\JP-Credit_Ratings\AAA_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 526.
+<use CVCI.png> [22 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/Spread_Hi
+IG.png (PNG copy)>] [23 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/Spre
+ad_LoIG.png (PNG copy)>] [24 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings
+/Spread_SG.png (PNG copy)>] [25 <Z:/Users/James/Documents/GitHub/JP-Credit_Rati
+ngs/CVCI.png (PNG copy)>] [26]
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\AAA_draft.bbl) [27] [28]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 515.
+
+[29]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 515.
+ (Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\AAA_draft.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 515.
 Package rerunfilecheck Info: File `AAA_draft.out' has not changed.
-(rerunfilecheck)             Checksum: 434A25CD3AE804DFDADA2F5B70626AA4;1269.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: 4D3C8D4E922515F4F6CEC4A21CF9E4E0;1213.
  ) 
 Here is how much of TeX's memory you used:
- 6226 strings out of 494019
- 90984 string characters out of 3143881
- 179875 words of memory out of 3000000
- 9254 multiletter control sequences out of 15000+200000
+ 6221 strings out of 494019
+ 91038 string characters out of 3143881
+ 180802 words of memory out of 3000000
+ 9253 multiletter control sequences out of 15000+200000
  12918 words of font info for 48 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 32i,13n,28p,2082b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,13n,28p,2097b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -567,9 +557,9 @@ fonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmti9.pfb>
-Output written on AAA_draft.pdf (30 pages, 1194037 bytes).
+Output written on AAA_draft.pdf (29 pages, 1189789 bytes).
 PDF statistics:
- 510 PDF objects out of 1000 (max. 8388607)
- 118 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
