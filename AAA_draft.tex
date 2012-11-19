@@ -16,6 +16,7 @@
 \usepackage{titling}
 \usepackage{setspace}
 \usepackage{abstract}
+\usepackage{amsmath}
 
 
 \setlength{\droptitle}{-4em}
@@ -140,7 +141,7 @@ A useful proxy for default probability is the leverage ratio, which is a measure
 \label{fig:coh_lev}
 \end{figure}
 
-It may be the case that the distribution of bond ratings has changed for reasons not related to firm behaviour. Primarily, CRAs may have changed the standards used to determine a firm's rating, while the relevant measures of firm behaviour have remained constant. If this was the case the within rating average leverage ratios would either increase or decrease depending on whether that rating class has become relatively more or less prone to default. By computing the average leverage ratio within a rating by year, I show that this is not the case. Average leverage ratios have changed very little over the relevant period. The results can be seen in Figure~(\ref{fig:avg_lev}). 
+It may be the case that the distribution of bond ratings has changed for reasons not related to firm behaviour. For instance, CRAs may have changed the standards used to determine a firm's rating, while the relevant measures of firm behaviour have remained constant. If this was the case the within rating average leverage ratios would either increase or decrease depending on whether that rating class has become relatively more or less prone to default. By computing the average leverage ratio within a rating by year, I show that this is not the case. Average leverage ratios have changed very little over the relevant period. The results can be seen in Figure~(\ref{fig:avg_lev}). 
 
 \begin{figure}[ht]
 \centering
@@ -186,7 +187,7 @@ The aim of the model is to capture the change in the way investors obtain inform
 This section continues with an outline of the environment which describes the players, timing, and information flows. More detail is then provided about the role of public signals and credit ratings. The firm and investor problems follow. The equilibrium concept is then defined, along with the solution to the firm's problem and the investor's decision rule.
 
 \subsection{Environment}
-Firms are endowed with a project which will have either a low or high return. The probability of the high return is referred to as the firm's type, $\theta \epsilon \{g,b\}$, is unknown to all. First, a public signal, $\nu \epsilon \{h,l\}$, which is correlated with the firm's type is observed by all. The firm then chooses the amount of resources it devotes to non-productive rating activities, $i  \epsilon [0,1]$, knowing the public signal but not their type. Let $c(i)$ be the cost investing $i$. This investment will increase the probability that the firm receives a high credit rating and lower the probability is receives a low credit rating.
+Firms are endowed with a project which will have either a low or high return. The probability of the high return is referred to as the firm's type, $\theta \epsilon \{g,b\}$, and is unknown to all. First, a public signal, $\nu \epsilon \{h,l\}$, which is correlated with the firm's type is observed by all. The firm then chooses the amount of resources it devotes to non-productive rating activities, $i  \epsilon [0,1]$, knowing the public signal but not their type. Let $c(i)$ be the cost investing $i$. This investment will increase the probability that the firm receives a high credit rating and lower the probability is receives a low credit rating.
 
 A credit rating, $\kappa \epsilon \{A,B,C\}$, which is also correlated with the firm's type, is then produced by a passive credit rating agency, and observed by all. The distribution of credit ratings depends on both $\theta$ and $i$. After observing $\nu$ and $\kappa$, investors decide whether to purchase the firm's debt at the market interest rate, $R(\kappa,\nu)$. The outcome of the project is then realized and debts are paid.
 
@@ -215,24 +216,26 @@ where
 \sigma^{g}_{1}+\sigma^{g}_{2}+\sigma^{g}_{3} & =1\\
 \sigma^{b}_{1}+\sigma^{b}_{2}+\sigma^{b}_{3} & =1.
 \end{align*}
-Assumptions (\ref{a1}) and (\ref{a2}) imply that $g_{1}>0$ and $b_{1}>0$.
+Assumptions (\ref{a1}) and (\ref{a2}) imply that $\sigma^{g}_{1}>0$ and $\sigma^{b}_{1}>0$.
 
 The noisy public signal, $\nu\epsilon \{H,L\}$, that may be correlated with a firm's type, is seen by investors and firms. The distribution of $\nu$ is as follows: $Pr \{\medmath{H} | \medmath{g} \}=Pr \{\medmath{L} | \medmath{b} \}=\omega$ and $Pr \{\medmath{L} | \medmath{g} \}=Pr \{\medmath{H} | \medmath{b} \}=1-\omega$. One can interpret $\omega$ as the probability that the public signal is accurate, i.e.\ the probability that good firms get high public signals, and bad firms get low public signals. As constructed, if $\omega > 1/2$ the public signal is informative in that signal $H$ is correlated with type $g$ and $L$ with $b$.\footnote{Note that, if $\omega<1/2$, the public signal is still correlated with the firm's type. In this case, the high public signal would be positively correlated with bad firms, and vice versa.}
 
 \subsection{Firms}
-Firms differ in their unobservable type, $\theta \epsilon \left\{g,b\right\}$. The distribution of $\theta$ is as follows: $Pr\{g\}=\lambda$ and $Pr\{b\}=1-\lambda$. Firms are endowed with a risky project that will return $y$ with probability $\gamma_{\theta}$, where $\gamma_{g}>\gamma_{b}$, and 0 otherwise. The firm must receive an investment of fixed size $d=1$ to start the project. The distribution of types is common knowledge. 
+Firms differ in their unobservable type, $\theta \epsilon \left\{g,b\right\}$. The distribution of $\theta$ is $Pr\{g\}=\lambda$ and $Pr\{b\}=1-\lambda$. Firms are endowed with a risky project that will return $y$ with probability $\gamma_{\theta}$, where $\gamma_{g}>\gamma_{b}$, and 0 otherwise. The firm must receive an investment of fixed size $d=1$ to start the project. The distribution of types is common knowledge. 
 
-The timing for firms is as follows. The firm first observes its noisy signal, $\nu$, and then chooses the level of resources to invest in rating activities, $i$, in order to maximize the expected value of the project net of borrowing costs. At this point the firms do not know their rating and thus the expectation is taken over both the probability the project will return $y$ given $\nu$ and the distribution of ratings given $\nu$ and $i$ as the rating will influence the borrowing cost $R(\kappa,\nu)$.
+The timing for firms follows. The firm first observes its noisy signal, $\nu$, and then chooses the level of resources to devote to rating activities, $i$, in order to maximize the expected value of the project net of borrowing costs. At this point the firms do not know their rating and thus the expectation is taken over both the probability the project will return $y$ given $\nu$ and the distribution of ratings given $\nu$ and $i$, as the rating will influence the borrowing cost $R(\kappa,\nu)$.
 
 Given gross interest rates $R(\kappa,\nu)$, the firm's problem is the following:
 \begin{align}
 \label{eq:FP} V(\nu)=\max_{i} & -c(i)+\textup{E}_{\theta,h} [ \mathbbm{1}(\kappa,\nu) (y - R(\kappa,\nu)|\nu ) ]\\
-\textup{subject to: } & i\epsilon [0,1] \nonumber
+& \textup{subject to: } i\epsilon [0,1] \nonumber
 \end{align}
-I assume $c(i)$ is increasing, $c'(0)=0$ and $c'(1)=\infty$. The indicator function $\mathbbm{1}(\kappa,\nu)$ is equal to 1 when an investment is received, and 0 otherwise. It is allowed to depend on $\kappa$ and $\nu$ as both are available to investors when they make their decision to invest. The benefits of a higher $i$ are lower expected borrowing cost ($R(\kappa,\nu)$) as the expected rating is higher, and an increased probability of receving an investment. The firm weighs these benefits against the cost of investing in the rating process, $c(i)$. As firms do not observe their type, the public signal determines the level of investment that balances these expected benefits and costs. Thus, firms that receive the low public signal $L$ may still be $g$-type and there is a benefit to investing in the rating. Conversely, firms that receive the high public signal $H$ have some assurance of their being a $g$-type, but may in fact be $b$-type. 
+I assume $c(i)$ is increasing, $c'(0)=0$ and $c'(1)=\infty$. The indicator function $\mathbbm{1}(\kappa,\nu)$ is equal to 1 when an investment is received, and 0 otherwise. It is allowed to depend on $\kappa$ and $\nu$ as both are available to investors when they make their decision to invest.
+
+The benefits of a higher $i$ are lower expected borrowing cost ($R(\kappa,\nu)$) as the expected rating is higher, and an increased probability of receving an investment. The firm weighs these benefits against the cost, $c(i)$. As firms do not observe their type, the public signal determines the level of $i$ that balances these expected benefits and costs. Thus, firms that receive the low public signal $L$ may still be $g$-type and there is a benefit to investing in the rating. Conversely, firms that receive the high public signal $H$ have some assurance of their being a $g$-type, but may in fact be $b$-type. 
 
 \subsection{Investors}
-Investors are endowed with 1 unit of investment capital which they can invest in either firm debt at the market interest rate, $R(\kappa,\nu)$, or government debt at the risk-free interest rate, $r$. Before making this decision, investors observe a credit rating, $\kappa$, and public signal, $\nu$, from the firm. If the investor chooses to purchase firm debt,she will then be repaid $R(\kappa,\nu)$ at the end of the period if the firm honours its debt. Investors face no barriers to entry in the market for debt and investment capital is available in perfectly elastic supply. The expected investor return to firm debt rated $\kappa$ with signal $\nu$ is:
+Investors are endowed with 1 unit of investment capital which they can invest in either firm debt at the market interest rate, $R(\kappa,\nu)$, or government debt at the risk-free interest rate, $r$. Before making this decision, investors observe a credit rating, $\kappa$, and public signal, $\nu$, from the firm. If the investor chooses to purchase firm debt, she will then be repaid $R(\kappa,\nu)$ at the end of the period if the firm honours its debt and 0 otherwise. Investors face no barriers to entry in the market for debt and investment capital is available in perfectly elastic supply. The expected investor return to firm debt rated $\kappa$ with signal $\nu$ is:
 % As capital markets are perfectly competitive, the expected investor return to firm debt rated $\kappa$ with signal $\nu$ is equal to the return to government debt:
 \begin{equation}
 \textup{E}_{\theta} [R(\kappa,\nu)|\kappa,\nu ].
@@ -244,7 +247,7 @@ An equilibrium is a set of interest rates, $\mathbf{R}^{*}=\{ R^{*}(\kappa,\nu)\
 \begin{enumerate}
 	%\setlength{\itemindent}{0.8cm}
 	\item given $\mathbf{R}^{*}$, $i^{*}_{\nu}$ solves (\ref{eq:FP});
-	\item as investors are perfectly competitive: $\textup{E}_{\theta} [R^{*}(\kappa,\nu)|\kappa,\nu ] = r \,\, \forall \kappa, \nu$.
+	\item (free entry condition) investors do not earn excess returns:\\$\textup{E}_{\theta} [R^{*}(\kappa,\nu)|\kappa,\nu ] = r \,\, \forall \kappa, \nu$.
 \end{enumerate}
 
 \subsection{Solution to the Firm's Problem}
@@ -256,7 +259,14 @@ i^{*}_{L} = & (c')^{-1}\sum_{\kappa \epsilon \{A,B,C\}} \frac{(1-\omega)\lambda\
 where $(c')^{-1}$ is the inverse marginal cost function.
 
 \subsection{Investor's Decsion}
-Invest if $y>R^{*}(\kappa,\nu)$.
+Invest if $y>R^{*}(\kappa,\nu)$. More precisely:
+\begin{align*}
+\mathbbm{1}(\kappa,\nu)=
+\begin{cases}
+1 & \text{ if } R^{*}(\kappa,\nu)\geq y \\ 
+0 & \text{ if } R^{*}(\kappa,\nu)< y. 
+\end{cases}
+\end{align*}
 
 \subsection{Interest Rates}
 Considering the free entry condition for firms, the following are the equilibrium interest rates.
@@ -317,14 +327,14 @@ Under assumptions (\ref{a1}) and (\ref{a2}), each of these probabilities is decr
 As the pool of firms with an $A$ or $C$ rating and $\nu$ signal now contains proportionately less of type $g$ and more type $b$ firms, the expected default rate of the pool will increase. The corresponding change in the interest rate is:
 \begin{align}
 \frac{\partial \textup{R}^{*}(\medmath{\kappa,H})}{\partial i^{*}_{\nu}} &= 
-\frac{r\omega\lambda(1-\omega)(1-\lambda)[\pi_{\kappa}(\medmath{g,i^{*}_{\nu}})\pi_{\kappa}' (\medmath{b})-\kappa (\medmath{B,i^{*}_{\nu}})\kappa' (\medmath{g})](\gamma_{g}-\gamma_{b})}{(\textup{Pr}(\medmath{g,\nu,\kappa}|\medmath{i^{*}_{\nu}})\gamma_g + \textup{Pr}(\medmath{B,\nu,\kappa}|\medmath{i^{*}_{\nu}})\gamma_b)^2},
+\frac{r\omega\lambda(1-\omega)(1-\lambda)[\pi_{\kappa}(\medmath{g,i^{*}_{\nu}})\pi_{\kappa}' (\medmath{b})-\pi_{\kappa}(\medmath{B,i^{*}_{\nu}})\pi_{\kappa}' (\medmath{g})](\gamma_{g}-\gamma_{b})}{(\textup{Pr}(\medmath{g,\nu,\kappa}|\medmath{i^{*}_{\nu}})\gamma_g + \textup{Pr}(\medmath{B,\nu,\kappa}|\medmath{i^{*}_{\nu}})\gamma_b)^2},
 \end{align}
-where $\pi_{\kappa}(\theta,i)$ is the probability of receiving rating $\kappa$ at type $\theta$ and investment $i$, and $\pi_{\kappa}'(\theta)$ is the derivative of $\pi_{\kappa}$ with respect to $i$. Note that the derivative of $\pi$ does not depend on $i$ as that ratings production functions are assumed to be linear. This expression is positive, indicating that $\textup{R}^{*}(\medmath{\kappa}|\medmath{\nu})$ is increasing in $i^{*}_{\nu}$ for $\kappa$ equal to $A$ or $C$. The interest rate increases because the proportion of type $g$ firms is decreasing (and thus that of $b$ types is increasing) in the pool of $A$ or $C$-rated, $\nu$-signal firms.\footnote{This is true as $\frac{\kappa'(\medmath{g})}{\pi_{\kappa}(\medmath{g,i})}<\frac{\pi_{\kappa}'(\medmath{b})}{\pi_{\kappa}(\medmath{b,i})}$ for $\kappa\epsilon\left\{A,C\right\}$, which holds whenever $g_{1}>0$ and $b_{1}>0$, respectively.} So, a random $A$ or $C$-rated, $\nu$-signal firm is now more likely to be $B$ type and the default rate of firms in this pool has increased.
+where $\pi_{\kappa}(\theta,i)$ is the probability of receiving rating $\kappa$ at type $\theta$ and investment $i$, and $\pi_{\kappa}'(\theta)$ is the derivative of $\pi_{\kappa}$ with respect to $i$. Note that the derivative of $\pi$ does not depend on $i$ as that ratings production functions are assumed to be linear. This expression is positive, indicating that $\textup{R}^{*}(\medmath{\kappa}|\medmath{\nu})$ is increasing in $i^{*}_{\nu}$ for $\kappa$ equal to $A$ or $C$. The interest rate increases because the proportion of type $g$ firms is decreasing (and thus that of $b$ types is increasing) in the pool of $A$ or $C$-rated, $\nu$-signal firms.\footnote{This is true as $\frac{\pi_{\kappa}'(\medmath{g})}{\pi_{\kappa}(\medmath{g,i})}<\frac{\pi_{\kappa}'(\medmath{b})}{\pi_{\kappa}(\medmath{b,i})}$ for $\kappa\epsilon\left\{A,C\right\}$, which holds whenever $g_{1}>0$ and $b_{1}>0$, respectively.} So, a random $A$ or $C$-rated, $\nu$-signal firm is now more likely to be $B$ type and the default rate of firms in this pool has increased.
 
 As the interest rate increases, so does the borrowing cost. The net return to the project for the firm, $y-R$, is therefore lowered, along with the marginal benefit of investment in ratings. The change in the marginal benefit is:
 \begin{align}
-\frac{\partial \textup{MB}_{H}(\medmath{\mathbf{R^{*}}})}{\partial \textup{R}^{*}(\medmath{\kappa}|\medmath{\nu})} &= -\frac{\omega\lambda\pi_{\kappa}'(g)\gamma_{g}+(1-\omega)(1-\lambda)\pi_{\kappa}'(b)\gamma_b}{\omega\lambda + (1-\omega)(1-\lambda)}\\
-\frac{\partial \textup{MB}_{L}(\medmath{\mathbf{R^{*}}})}{\partial \textup{R}^{*}(\medmath{\kappa}|\medmath{\nu})} &= -\frac{(1-\omega)\lambda\pi_{\kappa}'(g)\gamma_{g}+\omega(1-\lambda)\pi_{\kappa}'(b)\gamma_b}{(1-\omega)\lambda + \omega(1-\lambda)}
+\frac{\partial \textup{MB}_{H}(\medmath{\mathbf{R^{*}}})}{\partial \textup{R}^{*}(\medmath{\kappa}|\medmath{\nu})} &=\sum_{\kappa = A,C} -\frac{\omega\lambda\pi_{\kappa}'(g)\gamma_{g}+(1-\omega)(1-\lambda)\pi_{\kappa}'(b)\gamma_b}{\omega\lambda + (1-\omega)(1-\lambda)}\\
+\frac{\partial \textup{MB}_{L}(\medmath{\mathbf{R^{*}}})}{\partial \textup{R}^{*}(\medmath{\kappa}|\medmath{\nu})} &=\sum_{\kappa = A,C} -\frac{(1-\omega)\lambda\pi_{\kappa}'(g)\gamma_{g}+\omega(1-\lambda)\pi_{\kappa}'(b)\gamma_b}{(1-\omega)\lambda + \omega(1-\lambda)}
 \end{align}
 Note that the interest rate for $B$ rated firms, $\textup{R}^{*}(\medmath{B,\nu})$, does not change with $i^{*}_{\nu}$ and therefore has no bearing on the marginal benefit.\footnote{In contrast to the relevant condition for $A$ or $C$, $\frac{\pi_{B}'(\medmath{g})}{\pi_{B}(\medmath{g,i})}=\frac{\pi_{B}'(\medmath{b})}{\pi_{B}(\medmath{b,i})}$.} As the marginal benefit decreases, an individual firm would like to \emph{decrease} their investment in the ratings process, as $i^{*}_{\nu}=\textup{MB}_{\nu}(\medmath{\mathbf{R^{*}}})^{\frac{1}{\alpha-1}}$. This is a contradiction.
 \end{proof}
@@ -337,8 +347,14 @@ Proposition~(\ref{pr:pi}) states that when the public signal becomes more accura
 \label{pr:dist}
 Consider $\omega_{1},\omega_{2}$. Let $\mu_{j}(\kappa)$ be the measure of firms rated $\kappa$ if $\omega=\omega_{j}$. Then, for any $\omega_{1}<\omega_{2}$,
 \begin{equation*}
-\mu_{1}(A)>\mu_{2}(A), \mu_{1}(B)<\mu_{2}(B), \textup{ and } \mu_{1}(C)<\mu_{2}(C).
+\mu_{1}(A)>\mu_{2}(A), \mu_{1}(B)<\mu_{2}(B), \textup{ and } \mu_{1}(C)<\mu_{2}(C)
 \end{equation*}
+if
+\begin{align*}
+i_{H}>i_{L} & \textup{ and }\lambda<\frac{\pi_{\kappa}'(b)}{\pi_{\kappa}'(g)+\pi_{\kappa}'(b)}\\
+\textup{or} & \\
+i_{H}<i_{L} & \textup{ and }\lambda>\frac{\pi_{\kappa}'(b)}{\pi_{\kappa}'(g)+\pi_{\kappa}'(b)}.
+\end{align*}
 \end{proposition}
 \begin{proof}
 Let $i_{\nu}(\omega)$ be the investment chosen by firms with signal $\nu$ if the public signal accuracy is $\omega$. By Proposition~(\ref{pr:pi}), $i_{\nu}(\omega_{1})>i_{\nu}(\omega_{2})$ for any $\omega_{1}<\omega_{2}$. As $\pi_{\kappa}(\theta,i_{\nu})$ is increasing in $i$ for $\kappa=A$ and decreasing in $i$ for $\kappa=B,C$, it follows that $\pi_{A}(\theta,i_{\nu}(\omega_{1}))>\pi_{A}(\theta,i_{\nu}(\omega_{2}))$, $\pi_{B}(\theta,i_{\nu}(\omega_{1}))<\pi_{B}(\theta,i_{\nu}(\omega_{2}))$, and $\pi_{C}(\theta,i_{\nu}(\omega_{1}))<\pi_{C}(\theta,i_{\nu}(\omega_{2}))$.
