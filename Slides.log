@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.16)  5 OCT 2012 11:43
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.15)  4 DEC 2012 10:07
 entering extended mode
 **Slides
-(Z:\Users\James\Documents\GitHub\JP-AAA\Slides.tex
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\Slides.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -824,7 +824,7 @@ Package: beamercolorthemedolphin 2010/06/17  (rcs-revision d02a7cf4d8ae)
 eamerouterthemeinfolines.sty
 Package: beamerouterthemeinfolines 2010/07/10  (rcs-revision 445340293dde)
 ))
-(Z:\Users\James\Documents\GitHub\JP-AAA\Slides.aux)
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\Slides.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
@@ -905,8 +905,8 @@ LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
 
-(Z:\Users\James\Documents\GitHub\JP-AAA\Slides.out)
-(Z:\Users\James\Documents\GitHub\JP-AAA\Slides.out)
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\Slides.out)
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\Slides.out)
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 32.
@@ -977,7 +977,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 ts\translator-theorem-dictionary\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-(Z:\Users\James\Documents\GitHub\JP-AAA\Slides.nav) [1
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\Slides.nav) [1
 
 {Z:/Users/James/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Try loading font information for U+msa on input line 50.
@@ -1020,7 +1020,7 @@ File: rate_freq.png Graphic file (type png)
 File: rate_freq.png Graphic file (type png)
  <use rate_freq.png> [8
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/rate_freq.png (PNG copy)>]
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/rate_freq.png (PNG copy)>]
 <rate_share.png, id=233, 747.2718pt x 502.9992pt>
 File: rate_share.png Graphic file (type png)
  <use rate_share.png>
@@ -1033,8 +1033,8 @@ File: rate_share.png Graphic file (type png)
  <use rate_share.png>
 File: rate_share.png Graphic file (type png)
 
-<use rate_share.png> [9 <Z:/Users/James/Documents/GitHub/JP-AAA/rate_share.png 
-(PNG copy)>] [10] [11
+<use rate_share.png> [9 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/rate
+_share.png (PNG copy)>] [10] [11
 
 ] [12
 
@@ -1058,8 +1058,8 @@ File: info_start.pdf Graphic file (type pdf)
 
 <use info_start.pdf, page 1> [15
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/info_start.pdf>] <info_mid.pdf, id=433
-, page=1, 405.8121pt x 214.29962pt>
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/info_start.pdf>] <info_mid.
+pdf, id=433, page=1, 405.8121pt x 214.29962pt>
 File: info_mid.pdf Graphic file (type pdf)
 
 <use info_mid.pdf, page 1>
@@ -1072,8 +1072,8 @@ File: info_mid.pdf Graphic file (type pdf)
  <use info_mid.pdf, page 1>
 File: info_mid.pdf Graphic file (type pdf)
 
-<use info_mid.pdf, page 1> [16 <Z:/Users/James/Documents/GitHub/JP-AAA/info_mid
-.pdf>] <info_end.pdf, id=467, page=1, 405.8121pt x 214.29962pt>
+<use info_mid.pdf, page 1> [16 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratin
+gs/info_mid.pdf>] <info_end.pdf, id=467, page=1, 405.8121pt x 214.29962pt>
 File: info_end.pdf Graphic file (type pdf)
 
 <use info_end.pdf, page 1>
@@ -1086,8 +1086,8 @@ File: info_end.pdf Graphic file (type pdf)
  <use info_end.pdf, page 1>
 File: info_end.pdf Graphic file (type pdf)
 
-<use info_end.pdf, page 1> [17 <Z:/Users/James/Documents/GitHub/JP-AAA/info_end
-.pdf>] [18] [19
+<use info_end.pdf, page 1> [17 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratin
+gs/info_end.pdf>] [18] [19
 
 ] [20
 
@@ -1114,29 +1114,34 @@ File: EQ_comp_H_w.png Graphic file (type png)
 
 <use EQ_comp_H_w.png> [27
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/EQ_comp_H_w.png (PNG copy)>] <EQ_comp_
-L_w.png, id=781, 797.22844pt x 572.1375pt>
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/EQ_comp_H_w.png (PNG copy)>
+] <EQ_comp_L_w.png, id=781, 797.22844pt x 572.1375pt>
 File: EQ_comp_L_w.png Graphic file (type png)
 
 <use EQ_comp_L_w.png> [28
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/EQ_comp_L_w.png (PNG copy)>] <EQ_comp_
-H_l.png, id=808, 797.22844pt x 575.14874pt>
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/EQ_comp_L_w.png (PNG copy)>
+]
+<EQ_comp_H_l.png, id=808, 797.22844pt x 575.14874pt>
 File: EQ_comp_H_l.png Graphic file (type png)
+ <use EQ_comp_H_l.png>
+[29
 
-<use EQ_comp_H_l.png> [29
-
- <Z:/Users/James/Documents/GitHub/JP-AAA/EQ_comp_H_l.png (PNG copy)>] <EQ_comp_
-L_l.png, id=835, 797.22844pt x 587.94656pt>
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/EQ_comp_H_l.png (PNG copy)>
+] <EQ_comp_L_l.png, id=835, 797.22844pt x 587.94656pt>
 File: EQ_comp_L_l.png Graphic file (type png)
 
 <use EQ_comp_L_l.png> [30
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/EQ_comp_L_l.png (PNG copy)>] [31
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/EQ_comp_L_l.png (PNG copy)>
+] [31
 
 ] [32
 
-] <eq_inv.png, id=917, 797.22844pt x 579.66562pt>
+]
+<eq_inv.png, id=917, 797.22844pt x 579.66562pt>
+File: eq_inv.png Graphic file (type png)
+ <use eq_inv.png>
 File: eq_inv.png Graphic file (type png)
 
 <use eq_inv.png>
@@ -1145,13 +1150,10 @@ File: eq_inv.png Graphic file (type png)
 File: eq_inv.png Graphic file (type png)
  <use eq_inv.png>
 File: eq_inv.png Graphic file (type png)
- <use eq_inv.png>
-File: eq_inv.png Graphic file (type png)
+ <use eq_inv.png> [33
 
-<use eq_inv.png> [33
-
- <Z:/Users/James/Documents/GitHub/JP-AAA/eq_inv.png (PNG copy)>] <spreads.png, 
-id=944, 797.22844pt x 579.66562pt>
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/eq_inv.png (PNG copy)>]
+<spreads.png, id=944, 797.22844pt x 579.66562pt>
 File: spreads.png Graphic file (type png)
  <use spreads.png>
 File: spreads.png Graphic file (type png)
@@ -1163,8 +1165,8 @@ File: spreads.png Graphic file (type png)
  <use spreads.png>
 File: spreads.png Graphic file (type png)
  <use spreads.png>
-[34 <Z:/Users/James/Documents/GitHub/JP-AAA/spreads.png (PNG copy)>] [35]
-[36
+[34 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/spreads.png (PNG copy)>]
+[35] [36
 
 ]
 Overfull \hbox (44.77678pt too wide) in paragraph at lines 450--450
@@ -1202,8 +1204,8 @@ File: SpreadAll.png Graphic file (type png)
 
 <use SpreadAll.png> [41
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/SpreadAll.png (PNG copy)>] <Spread_HiI
-G.png, id=1155, 1347.0325pt x 979.66pt>
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/SpreadAll.png (PNG copy)>] 
+<Spread_HiIG.png, id=1155, 1347.0325pt x 979.66pt>
 File: Spread_HiIG.png Graphic file (type png)
 
 <use Spread_HiIG.png>
@@ -1215,8 +1217,8 @@ File: Spread_HiIG.png Graphic file (type png)
 
 <use Spread_HiIG.png>
 File: Spread_HiIG.png Graphic file (type png)
- <use Spread_HiIG.png> [42 <Z:/Users/James/Documents/GitHub/JP-AAA/Spread_HiIG.
-png (PNG copy)>]
+ <use Spread_HiIG.png> [42 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/S
+pread_HiIG.png (PNG copy)>]
 <Spread_LoIG.png, id=1182, 1347.0325pt x 979.66pt>
 File: Spread_LoIG.png Graphic file (type png)
  <use Spread_LoIG.png>
@@ -1229,53 +1231,55 @@ File: Spread_LoIG.png Graphic file (type png)
  <use Spread_LoIG.png>
 File: Spread_LoIG.png Graphic file (type png)
 
-<use Spread_LoIG.png> [43 <Z:/Users/James/Documents/GitHub/JP-AAA/Spread_LoIG.p
-ng (PNG copy)>] <conf_int.png, id=1210, 747.2718pt x 502.9992pt>
-File: conf_int.png Graphic file (type png)
+<use Spread_LoIG.png> [43 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/Sp
+read_LoIG.png (PNG copy)>] <CVCI.png, id=1210, 747.2718pt x 502.9992pt>
+File: CVCI.png Graphic file (type png)
 
-<use conf_int.png>
-File: conf_int.png Graphic file (type png)
- <use conf_int.png>
-File: conf_int.png Graphic file (type png)
- <use conf_int.png>
-File: conf_int.png Graphic file (type png)
- <use conf_int.png>
-File: conf_int.png Graphic file (type png)
+<use CVCI.png>
+File: CVCI.png Graphic file (type png)
+ <use CVCI.png>
+File: CVCI.png Graphic file (type png)
+ <use CVCI.png>
+File: CVCI.png Graphic file (type png)
+ <use CVCI.png>
+File: CVCI.png Graphic file (type png)
+ <use CVCI.png>
+[44 <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/CVCI.png (PNG copy)>]
+[45] [46
 
-<use conf_int.png> [44 <Z:/Users/James/Documents/GitHub/JP-AAA/conf_int.png (PN
-G copy)>] [45] [46
-
-]
-<avg_leverage_bv_nofin.pdf, id=1297, page=1, 794.97pt x 614.295pt>
+] <avg_leverage_bv_nofin.pdf, id=1297, page=1, 794.97pt x 614.295pt>
 File: avg_leverage_bv_nofin.pdf Graphic file (type pdf)
 
 <use avg_leverage_bv_nofin.pdf, page 1> [47
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/avg_leverage_bv_nofin.pdf>]
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/avg_leverage_bv_nofin.pdf>]
+
 <leverage_by_cohort_clr.pdf, id=1333, page=1, 794.97pt x 614.295pt>
 File: leverage_by_cohort_clr.pdf Graphic file (type pdf)
 
 <use leverage_by_cohort_clr.pdf, page 1> [48
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/leverage_by_cohort_clr.pdf>]
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/leverage_by_cohort_clr.pdf>
+]
 <assets_nf.pdf, id=1369, page=1, 794.97pt x 614.295pt>
 File: assets_nf.pdf Graphic file (type pdf)
 
 <use assets_nf.pdf, page 1> [49
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/assets_nf.pdf>] <top_cohorts.pdf, id=1
-406, page=1, 794.97pt x 614.295pt>
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/assets_nf.pdf>] <top_cohort
+s.pdf, id=1406, page=1, 794.97pt x 614.295pt>
 File: top_cohorts.pdf Graphic file (type pdf)
 
 <use top_cohorts.pdf, page 1> [50
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/top_cohorts.pdf>] <liab_share.png, id=
-1442, 747.2718pt x 502.9992pt>
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/top_cohorts.pdf>] <liab_sha
+re.png, id=1442, 747.2718pt x 502.9992pt>
 File: liab_share.png Graphic file (type png)
 
 <use liab_share.png> [51
 
- <Z:/Users/James/Documents/GitHub/JP-AAA/liab_share.png (PNG copy)>] [52
+ <Z:/Users/James/Documents/GitHub/JP-Credit_Ratings/liab_share.png (PNG copy)>]
+ [52
 
 ] [53
 
@@ -1285,7 +1289,8 @@ File: liab_share.png Graphic file (type png)
 \tf@snm=\write8
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 658.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 658.
- (Z:\Users\James\Documents\GitHub\JP-AAA\Slides.aux)
+
+(Z:\Users\James\Documents\GitHub\JP-Credit_Ratings\Slides.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 658.
 Package rerunfilecheck Info: File `Slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1297,7 +1302,7 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  16640 strings out of 494019
- 315281 string characters out of 3143882
+ 315400 string characters out of 3143881
  384291 words of memory out of 3000000
  19351 multiletter control sequences out of 15000+200000
  16788 words of font info for 65 fonts, out of 3000000 for 9000
@@ -1321,7 +1326,7 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Slides.pdf (53 pages, 1565103 bytes).
+Output written on Slides.pdf (53 pages, 1566632 bytes).
 PDF statistics:
  1602 PDF objects out of 1728 (max. 8388607)
  106 named destinations out of 1000 (max. 500000)
